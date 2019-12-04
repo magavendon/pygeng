@@ -2,9 +2,9 @@ import sys
 
 from PySide2.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout
 
-app = QApplication(['Hellow World'])
+app = QApplication(['ellow World'])
 hello = QWidget()
-helloLabel = QLabel('Hellow World')
+helloLabel = QLabel('ellow World')
 helloLayout = QVBoxLayout()
 helloLayout.addWidget(helloLabel)
 hello.setLayout(helloLayout)
