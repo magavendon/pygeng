@@ -5,7 +5,7 @@ from os.path import splitext
 
 setup(
     name='pygeng',
-    version='0.1.0',
+    version='0.1.1',
     description='python based generic gui generator',
     author='James Grider, JJ Quisenberry',
     author_email='grider.james@gmail.com johnny.e.quisenberry@gmail.com',
