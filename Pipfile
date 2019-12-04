@@ -8,7 +8,8 @@ bumpversion = "*"
 
 [packages]
 pyside2 = "*"
-pygeng = {editable = true,path = "."}
+pygeng = {path = ".",editable = true}
+pyyaml = "*"
 
 [requires]
 python_version = "3.5"
