@@ -9,9 +9,9 @@ setup(
     description='python based generic gui generator',
     author='James Grider, JJ Quisenberry',
     author_email='grider.james@gmail.com johnny.e.quisenberry@gmail.com',
-    packages=find_packages('src/pygeng'),
-    package_dir={'': 'src/pygeng'},
-    py_modules=[splitext(basename(path))[0] for path in glob('src/pygeng/*.py')],
+    packages=find_packages('pygeng'),
+    package_dir={'': 'pygeng'},
+    py_modules=[splitext(basename(path))[0] for path in glob('pygeng/*.py')],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
