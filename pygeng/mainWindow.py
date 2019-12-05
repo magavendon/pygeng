@@ -1,7 +1,7 @@
 from PySide2.QtCore import Qt
 from PySide2.QtWidgets import QWidget, QVBoxLayout
 
-from input import InputArea
+from inputArea import InputArea
 
 class MainWindow(QWidget):
   def __init__(self, config):

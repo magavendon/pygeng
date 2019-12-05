@@ -11,7 +11,7 @@ def loadConfigFile():
     configPath = '{}/.config/pygeng'.format(str(Path.home()))
     configFile = open('{}/config'.format(configPath))
   except FileNotFoundError:
-    return None
+    return {}
 
   try:
     config = yaml.load(configFile, Loader = yaml.FullLoader)
